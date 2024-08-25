@@ -9,6 +9,7 @@
     }
   ],
   "require": {
+    "ext-pcntl": "*",
     "symfony/framework-bundle": "^6.1|^7.0"
   },
   "autoload": {
