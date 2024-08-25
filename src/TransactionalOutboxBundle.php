@@ -40,7 +40,7 @@ final class TransactionalOutboxBundle extends AbstractBundle
             $config['queues'] = [
                 'default' => [
                     'connection_name' => 'default',
-                    'table_name' => 'outbox_queue',
+                    'table_name' => 'domain_events',
                 ],
             ];
         }
