@@ -17,7 +17,7 @@ use Symfony\Component\Serializer\SerializerInterface;
 
 use function sprintf;
 
-#[AsCommand(name: 'outbox:consume')]
+#[AsCommand(name: 'transactional-outbox:consume')]
 final class ConsumeCommand extends Command implements SignalableCommandInterface
 {
     private bool $shouldStop = false;
